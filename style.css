@@ -1,0 +1,113 @@
+/* definindo margens */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilo para o corpo da pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8e1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+/*para o conteudo não fique atras do cabeçalho */
+    padding-top: 80px; 
+}
+
+/*estilo para o cabeçalho */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+/* centraliza a logo e os botoes */
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* espaço de logo e botoes */
+    gap: 40px; 
+}
+/* estilo para a logo */
+#logo img {
+/*tamanho da logo */
+    width: 150px; 
+}
+
+
+.but {
+    display: flex;
+    gap: 20px; /* espaço entre os botoes */
+}
+
+.button1, .button2 {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+/* estilo para  texto */
+main .texto {
+    text-align: center;
+    margin-top: 30px;
+}
+
+main h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+main h5 {
+    font-size: 24px;
+    color: #666;
+    margin-top: 10px;
+}
+/*produtos*/
+.produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 40px 0;
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.produto img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.produto .descricao {
+    max-width: 300px;
+}
+
+.produto h3 {
+    margin-bottom: 10px;
+}
+
+.produto ul {
+    font-size: 16px;
+    color: #555;
+}
