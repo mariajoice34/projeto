@@ -1,18 +1,18 @@
-/* Margens e preenchimentos padrão */
+/* estilo para não afeta o site com estilo padrao do navegador*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo do corpo */
+/* estilo do corpo */
 body {
     font-family: Arial, sans-serif;
     background-color: #fff8e1;
     padding-top: 80px;
 }
 
-/* Estilo do cabeçalho */
+/* estilo do cabeçalho */
 header {
     position: fixed;
     top: 0;
@@ -23,7 +23,7 @@ header {
     justify-content: space-between;
     padding: 10px 20px;
 }
-
+/* logo e butoes*/
 #logo {
     display: flex;
     align-items: center;
@@ -65,7 +65,7 @@ main h5 {
     margin-top: 10px;
 }
 
-/* Seção de produtos */
+/* seção de produtos */
 .produtos {
     display: flex;
     flex-direction: column;
@@ -95,7 +95,7 @@ main h5 {
     height: 225px;
 }
 
-/* Seção de vídeos */
+/* seção de videos */
 .videos {
     text-align: center;
 }
