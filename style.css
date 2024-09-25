@@ -17,7 +17,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #f8f9fa;
+    background-color: #fff8e1;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
@@ -38,7 +38,7 @@ header {
     display: flex;
     gap: 20px;
 }
-.button1, .button2 {
+.button1, .button2, .button3 {
     padding: 10px 20px;
     font-size: 16px;
     color: white;
@@ -47,6 +47,7 @@ header {
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 15px; /*espaço entre button*/
 }
 
 main .texto {
@@ -89,6 +90,8 @@ main h5 {
     align-items: flex-start;
     gap: 20px;
     margin-bottom: 30px;
+    margin: 0 15px;
+  
 }
 
 .produto img {
@@ -163,4 +166,37 @@ footer p {
 
 .social-media a:hover {
     color: #0056b3;
+}
+/* Menu de navegação */
+nav {
+    margin-left: 40px; /*espaçamento a esquerda*/
+}
+
+.menu {
+    display: flex;
+    list-style: none; /*remove pontos do links*/
+    gap: 20px; /*espaçamento de cada intem*/
+    align-items: center;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: color 0.3s ease;/*uma transição na mudança de cor qndo passa o mouse por cima do links*/
+}
+
+.menu a:hover {
+    color: #007bff;/*cor da transição*/
+}
+
+/* Espaçamento entre logo e menu */
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
