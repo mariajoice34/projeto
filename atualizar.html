@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualizar Receita</title>
+    <link rel="stylesheet" href="comandos.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="logo1.jpeg" alt="Logo da Confeitaria">
+        </div>
+    </header>
+
+    <main>
+        <h1>Atualizar Receita</h1>
+        <form action="/atualizar" method="POST">
+            <label for="id">ID da Receita:</label>
+            <input type="text" id="id" name="id" required>
+            
+            <label for="nome">Nome da Receita:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="ingredientes">Ingredientes:</label>
+            <textarea id="ingredientes" name="ingredientes" rows="4" required></textarea>
+            
+            <label for="instrucoes">Instruções:</label>
+            <textarea id="instrucoes" name="instrucoes" rows="4" required></textarea>
+            
+            <button type="submit">Atualizar Receita</button>
+        </form>
+    </main>
+</body>
+</html>

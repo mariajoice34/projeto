@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excluir Receita</title>
+    <link rel="stylesheet" href="comandos.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="logo1.jpeg" alt="Logo da Confeitaria">
+        </div>
+    </header>
+
+    <main>
+        <h1>Excluir Receita</h1>
+        <form action="/excluir" method="POST">
+            <label for="id">ID da Receita:</label>
+            <input type="text" id="id" name="id" required>
+            
+            <button type="submit">Excluir Receita</button>
+        </form>
+    </main>
+</body>
+</html>

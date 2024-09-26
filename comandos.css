@@ -1,0 +1,128 @@
+/* Zerar os estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf5e6; /* Cor de fundo clara e suave */
+    color: #333; /* Cor padrão do texto */
+    padding: 50px; /* Espaçamento nas bordas */
+    text-align: center;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #fff8e1; /* Fundo do cabeçalho combinando com a cor do tema */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para dar destaque */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo do logo */
+#logo img {
+    width: 150px;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #a571bc; /* Cor do título */
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff; /* Cor de fundo dos formulários */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve para destacar o formulário */
+}
+
+/* Estilos dos rótulos e campos */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: left;
+    color: #555;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none; /* Evita redimensionar a área de texto */
+    height: 100px;
+}
+
+/* Estilo do botão de envio */
+button {
+    background-color: #007bff; /* Cor de fundo azul */
+    color: white; /* Cor do texto branco */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Muda a cor do botão ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.footer-content p {
+    font-size: 14px;
+    color: #555;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #0056b3;
+}
