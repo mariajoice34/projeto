@@ -17,6 +17,7 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 350px;
+    margin-top: 150px; /* Adiciona espaço acima da div */
 }
 
 /* título */
@@ -43,8 +44,6 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-
 /* entrada */
 .input-group input {
     width: 100%;
@@ -58,14 +57,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-
 /* estilo do botão de cadastro */
 .actions {
     margin-top: 20px;
    
 }
-
 .actions button {
     width: 100%;
     padding: 12px;

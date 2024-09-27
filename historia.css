@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+h/* estilo do cabeçalho */
 header {
     position: fixed;
     top: 0;
@@ -16,10 +17,6 @@ header {
     padding: 10px 20px;
 }
 
-img {
-    width: 300px;
-}
-
 #logo {
     display: flex;
     align-items: center;
@@ -29,11 +26,12 @@ img {
 #logo img {
     width: 150px;
 }
+
 .but {
     display: flex;
     gap: 20px;
 }
-.button1, .button2 {
+.button1, .button2, .button3, .button4, .button5, .button6, .button7 {
     padding: 10px 20px;
     font-size: 16px;
     color: white;
@@ -42,7 +40,29 @@ img {
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0 15px; /*espaço entre button*/
+    
+}
+
+.menu {
+    display: flex;
+    list-style: none; /*remove pontos do links*/
+    gap: 20px; /*espaçamento de cada intem*/
+    align-items: center;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: color 0.3s ease;/*uma transição na mudança de cor qndo passa o mouse por cima do links*/
+}
+
+.menu a:hover {
+    color: #007bff;/*cor da transição*/
 }
 
 body {
