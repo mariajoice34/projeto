@@ -67,7 +67,7 @@ body {
     padding: 12px;
     font-size: 18px;
     color: white;
-    background-color: #007bff;
+    background-color: #FFC0CB;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -77,7 +77,7 @@ body {
 
 /* efeito no botão ao passar o mouse */
 .actions button:hover {
-    background-color: #0056b3;
+    background-color: #FF1493;
 }
 
 /* Link para login */
@@ -85,7 +85,7 @@ body {
     display: block;
     margin-top: 15px;
     font-size: 14px;
-    color: #007bff;
+    color:#FF1493;
     text-decoration: none;
 }
 

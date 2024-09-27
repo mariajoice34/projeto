@@ -74,7 +74,7 @@ textarea {
 
 /* Estilo do botão de envio */
 button {
-    background-color: #007bff; /* Cor de fundo azul */
+    background-color: #FFC0CB; /* Cor de fundo azul */
     color: white; /* Cor do texto branco */
     padding: 15px 30px;
     border: none;
@@ -86,7 +86,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3; /* Muda a cor do botão ao passar o mouse */
+    background-color: #FF1493; /* Muda a cor do botão ao passar o mouse */
 }
 
 /* Rodapé */
@@ -117,12 +117,12 @@ footer {
 }
 
 .footer-links a {
-    color: #007bff;
+    color: #FF1493;
     text-decoration: none;
     font-size: 16px;
     transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-    color: #0056b3;
+    color: #FF1493;
 }

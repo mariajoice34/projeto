@@ -42,12 +42,17 @@ header {
     padding: 10px 20px;
     font-size: 16px;
     color: white;
-    background-color: #007bff;
+    background-color:#FFC0CB;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+/* Mudança de cor ao passar o mouse */
+.button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover, .button6:hover, .button7:hover {
+    background-color: #FF1493; /* Cor ao passar o mouse */
 }
 
 main .texto {
@@ -155,13 +160,13 @@ footer p {
 
 .social-media a {
     text-decoration: none;
-    color: #007bff;
+    color:#FF1493;
     font-size: 16px;
     transition: color 0.3s ease;
 }
 
 .social-media a:hover {
-    color: #0056b3;
+    color:#FF1493;
 }
 /* Menu de navegação */
 nav {
@@ -187,7 +192,7 @@ nav {
 }
 
 .menu a:hover {
-    color: #007bff;/*cor da transição*/
+    color: #FF1493;/*cor da transição*/
 }
 
 /* Espaçamento entre logo e menu */
